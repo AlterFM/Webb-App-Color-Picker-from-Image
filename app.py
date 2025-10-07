@@ -79,7 +79,7 @@ if uploaded_file:
 
     with col2:
         st.subheader("Grid Sampel Warna")
-        step = st.slider("Sampling pixel setiap:", 1,  5, 100, 25, help="Semakin besar nilainya, semakin kecil gridnya dan semakin ringan prosesnya.")
+        step = st.slider("Sampling pixel setiap:", 5, 100, 25, help="Semakin besar nilainya, semakin kecil gridnya dan semakin ringan prosesnya.")
         
         # ---- Membuat Data Grid ----
         grid_data = []
