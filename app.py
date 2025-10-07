@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🎨 RGB Color Picker")
+st.title("RGB Color Picker 51422646")
 st.write("Upload gambar, lihat sampel warna dalam format grid, dan klik gambar untuk mengetahui warna di titik tertentu.")
 
 # ---- Fungsi Helper untuk Warna Teks ----
@@ -78,8 +78,8 @@ if uploaded_file:
                 )
 
     with col2:
-        st.subheader("🧩 Grid Sampel Warna")
-        step = st.slider("Sampling pixel setiap:", 5, 100, 25, help="Semakin besar nilainya, semakin kecil gridnya dan semakin ringan prosesnya.")
+        st.subheader("Grid Sampel Warna")
+        step = st.slider("Sampling pixel setiap:", 1,  5, 100, 25, help="Semakin besar nilainya, semakin kecil gridnya dan semakin ringan prosesnya.")
         
         # ---- Membuat Data Grid ----
         grid_data = []
