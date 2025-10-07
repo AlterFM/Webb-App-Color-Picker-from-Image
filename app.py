@@ -5,7 +5,7 @@ import pandas as pd
 
 # ---- Konfigurasi Halaman ----
 st.set_page_config(
-    page_title="🎨 RGB Color Picker",
+    page_title="RGB Color Picker_51422646",
     layout="wide",
 )
 
