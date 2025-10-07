@@ -1,0 +1,57 @@
+# -------------------------
+# Virtual Environments
+# -------------------------
+# Abaikan folder virtual environment Python
+.venv/
+venv/
+env/
+.env/
+
+# -------------------------
+# Python Cache & Artifacts
+# -------------------------
+# Abaikan folder cache bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Abaikan folder distribusi dan build
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Streamlit Specific
+# -------------------------
+# SANGAT PENTING: Jangan pernah memasukkan file rahasia ke Git!
+.streamlit/secrets.toml
+
+# -------------------------
+# IDE / Editor Config
+# -------------------------
+# Visual Studio Code
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Data & Files Generated
+# -------------------------
+# Abaikan file CSV yang dihasilkan oleh aplikasi
+*.csv
+
+# Jika Anda menyimpan gambar yang diunggah pengguna, buat folder (misal: "uploads/")
+# dan tambahkan di sini untuk mengabaikannya.
+# uploads/
+
+# -------------------------
+# OS Specific Files
+# -------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
